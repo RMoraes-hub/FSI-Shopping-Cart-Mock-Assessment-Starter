@@ -8,14 +8,14 @@ let quantityText = document.querySelector (".total-quantity")
 
 // reference buttons//
 let upButton = document.querySelector ("#quantity-up")
-let downButton = document.querySelector ("quantity-down")
+let downButton = document.querySelector ("#quantity-down")
 
 //register listeners for when buttons are clicked//
 
 upButton.addEventlistener ("click"), function (){
    window.alert ("up button clickes")
    textQuantity = totalQuantity +1 
-   quantityText.textDocument="Quantity:" = totalQuantity
+   quantityText.textQuantity= "Quantity:" = + totalQuantity
 }
 downButton.addEventListener ("click"), function (){
       window.alert ("down buton ")
@@ -23,9 +23,9 @@ downButton.addEventListener ("click"), function (){
       //if zero we do not want to go negative//
 
 } if (totalQuantity > 0 ) {
-   totalQuantity = totalQuantity -1
+   quantityText = totalQuantity -1
+   quantityText="quantity:" + totalQuantity
 }
 
- }
 
 
